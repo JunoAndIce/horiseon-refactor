@@ -189,7 +189,8 @@ p {
 }
 
 /* Added background color to footer. */
-.footer {
+/* Changed from class to directly affecting the footer element  */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -199,6 +200,7 @@ p {
 }
 
 /* Changed h2 to h4 */
-.footer h4 { /* was h2 */
+/* Changed from footer class to directly affecting all h4 elements in the footer  */
+footer h4 { /* was h2 */
     font-size: 20px;
 }
