@@ -79,11 +79,6 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 /* Renamed to aside as class name becomes obsolete */
 aside {
@@ -97,8 +92,8 @@ aside {
     background-color: #2589bd;
 }
 
- /* Changed lead to info to better encapsulate all three benefits */
-.benefit-info {
+/* Changed lead to info to better encapsulate all three benefits */
+.benefit-information {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -149,7 +144,15 @@ aside {
     max-width: 150px;
 } */
 
-.search-engine-optimization {
+/* Changed to section as class name becomes obsolete. */
+/* Code moved down for better organization */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-site-information {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -158,50 +161,56 @@ aside {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* Obsolete code */
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.social-media-marketing {
+/* .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+/* Renamed to better encapsulate all three blocks. */
+.main-site-information img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* Obsolete code */
+/* .online-reputation-management img {
     max-height: 200px;
-}
+} */
 
-.social-media-marketing img {
+/* .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+
+/* Renamed to better encapsulate all three blocks. */
+.main-site-information h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* Obsolete code */
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
-.social-media-marketing h2 {
+/* .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 /* Added background color to footer. */
 /* Changed from class to directly affecting the footer element  */
