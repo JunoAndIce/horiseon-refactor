@@ -85,7 +85,8 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+/* Renamed to aside as class name becomes obsolete */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -96,53 +97,57 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+ /* Changed lead to info to better encapsulate all three benefits */
+.benefit-info {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* Obsolete code */
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-cost {
+/* .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+.benefit-info h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* Obsolete code */
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-cost h3 {
+/* .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit-info img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* Obsolete code */
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.benefit-cost img {
+/* .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 .search-engine-optimization {
     margin-bottom: 20px;
