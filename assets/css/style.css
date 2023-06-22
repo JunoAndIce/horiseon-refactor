@@ -26,7 +26,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* TODO: Remove all obsolete code */
 /* Changed from class to directly affecting header. (Removed: .)*/
 /* Changed div to nav */
 header nav {
