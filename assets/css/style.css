@@ -8,23 +8,28 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Changed from class to directly affecting header. (Removed: .)*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* Changed from class to directly affecting header. (Removed: .)*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Changed from class to directly affecting header. (Removed: .)*/
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Changed from class to directly affecting header. (Removed: .)*/
+/* Changed div to nav */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,19 +37,24 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Block Removed */
+/* .header div ul {
     list-style-type: none;
-}
+} */
 
-.header div ul li {
+/* changed from ul li to reference a under nav. */
+header nav a {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* Moved to header nav a */
+/* a {
+    color: #ffffff;
+    text-decoration: none;
+} */
 
 p {
     font-size: 16px;
