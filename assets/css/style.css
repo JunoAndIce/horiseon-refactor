@@ -71,29 +71,30 @@ p {
 
 
 /* Renamed to aside as class name becomes obsolete */
+/* * * Increased padding to better improve page formatting. */
 aside {
     margin-right: 20px;
-    padding: 20px;
-    clear: both;
+    padding: 48px;
+    /* clear: both; */
     float: right;
     width: 20%;
-    height: 100%;
+    height: 160%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 /* Changed lead to info to better encapsulate all three benefits */
-.benefit-information {
+figure {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-information h3 {
+figure h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-information img {
+figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -107,7 +108,8 @@ section {
     margin-left: 20px;
 }
 
-.main-site-information {
+/* Changed from specific class to element <article> */
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -117,12 +119,12 @@ section {
 }
 
 /* Renamed to better encapsulate all three blocks. */
-.main-site-information img {
+article img {
     max-height: 200px;
 }
 
 /* Renamed to better encapsulate all three blocks. */
-.main-site-information h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
