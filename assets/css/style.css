@@ -37,11 +37,6 @@ header nav {
     font-size: 20px;
 }
 
-/* Block Removed */
-/* .header div ul {
-    list-style-type: none;
-} */
-
 /* changed from ul li to reference a under nav. */
 header nav a {
     display: inline-block;
@@ -50,21 +45,16 @@ header nav a {
     text-decoration: none;
 }
 
-/* Moved to header nav a */
-/* a {
-    color: #ffffff;
-    text-decoration: none;
-} */
-
 p {
     font-size: 16px;
 }
 
-.hero {
+/* Changed from Hero to marketing-meeting to better make sense */
+/* removed background image element */
+.marketing-meeting {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -98,51 +88,16 @@ aside {
     color: #ffffff;
 }
 
-/* Obsolete code */
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-.benefit-info h3 {
+.benefit-information h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Obsolete code */
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-.benefit-info img {
+.benefit-information img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* Obsolete code */
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
 /* Changed to section as class name becomes obsolete. */
 /* Code moved down for better organization */
@@ -161,56 +116,16 @@ section {
     color: #ffffff;
 }
 
-/* Obsolete code */
-/* .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
 /* Renamed to better encapsulate all three blocks. */
 .main-site-information img {
     max-height: 200px;
 }
-
-/* Obsolete code */
-/* .online-reputation-management img {
-    max-height: 200px;
-} */
-
-/* .social-media-marketing img {
-    max-height: 200px;
-} */
-
 
 /* Renamed to better encapsulate all three blocks. */
 .main-site-information h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* Obsolete code */
-/* .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-/* .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 /* Added background color to footer. */
 /* Changed from class to directly affecting the footer element  */
